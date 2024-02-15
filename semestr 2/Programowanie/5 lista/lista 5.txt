@@ -1,0 +1,5 @@
+gui na wykladzie
+dowolna biblioteka
+nbp
+pandas tabela
+api nbp.pl

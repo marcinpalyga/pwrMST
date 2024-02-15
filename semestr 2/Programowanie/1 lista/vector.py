@@ -1,0 +1,23 @@
+from modul import Vector
+
+v = Vector(3)
+u = Vector(3)
+V = v.random()
+print(V)
+U = u.random()
+print(U)
+V = v.overwrite()
+print(v)
+print(u)
+print(v.__add__(u))
+print(v.__sub__(u))
+print(v.__mul__(3))
+print(v.length())
+print(v.sum())
+print(v.scalar_product(u))
+print(v.__getitem__(2))
+print(V.__contains__(3))
+
+a = Vector(3)
+a.overwrite()
+print(a.size)
