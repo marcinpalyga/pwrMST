@@ -11,7 +11,6 @@ highscore_list = [0,0,0,0,0]
 def start_game():
     pygame.init()
     pygame.mixer.init()
-    apple = pygame.mixer.Sound('apple.wav')
     width = 500
     height = 400
     game_root = pygame.display.set_mode((width, height))
@@ -80,7 +79,6 @@ def start_game():
             dis_score(length_of_snake - 1)
             pygame.display.update()
             if x == foodx and y == foody:
-                pygame.mixer.Sound.play(apple)
                 foodx = round(random.randrange(block, width - block)/10)*10
                 foody = round(random.randrange(block, height - block)/10)*10
                 length_of_snake += 1

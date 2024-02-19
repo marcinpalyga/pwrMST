@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import tkinter as tk
 import tkinter.font as font
+from Equation import Expression
 
 def isfloat(num):
     '''Funkcja sprawdzająca czy funkcja podana w kalkulatorze graficznym jest stałą'''
@@ -34,25 +35,23 @@ def calc():
             label.insert('end', '; lower limit is not a int or float')    
         try:
             equations = label.get()                 #zmieniamy elementy funkcji na elementy z biblioteki numpy
-            equations = equations.replace('sin', 'np.sin') 
-            equations = equations.replace('cos', 'np.cos')
-            equations = equations.replace('sqrt', 'np.sqrt')
-            equations = equations.replace('e', 'np.e')
-            equations = equations.replace('^', '**')
+            x = np.linspace(leftlim, rightlim, 10000)
             if ';' in equations:
+                np_eq = []
                 equation = equations.split(';')  #jeśli w stringu głównym znajduje się ';' rozdzielami string na pojedyncze funkcje
                 for function in equation:
-                    if isfloat(function) == True: #sprawdzamy czy funkcja jest stała, jeśli tak plotujemy na wykresie stałą
+                    np_eq.append(Expression(function))
+                for f in np_eq:
+                    function = f(x)
+                    if type(function) == int or type(function) == float: #sprawdzamy czy funkcja jest stała, jeśli tak plotujemy na wykresie stałą
                         plt.axhline(float(function), color = 'y')
                         plt.xlim(leftlim, rightlim)
                         plt.ylim(lowerlim, upperlim)
                         plt.grid(True)
                         plt.xlabel('X')
                         plt.ylabel('Y')
-                    else:
-                        x = np.linspace(leftlim, rightlim, 10000) #jeśli nie plotujemy funkcje w zależności od x
-                        y = (function)
-                        plt.plot(x, y)
+                    else: #jeśli nie plotujemy funkcje w zależności od x
+                        plt.plot(x, function)
                         plt.xlim(leftlim, rightlim)
                         plt.ylim(lowerlim, upperlim)
                         plt.title("Graphing Calculator")
@@ -127,7 +126,7 @@ def calc():
     lowery.grid(column = 2, row = 1, padx = 5, pady = 5)
     
     uppervar = tk.StringVar() #górna granica
-    uppervar.set('Set a left limit on X axis')
+    uppervar.set('Set a upper limit on Y axis')
     uppery = tk.Entry(root, font = axisfont, textvariable = uppervar )
     uppery.grid(column = 3, row = 1, padx = 5, pady = 5)
 
