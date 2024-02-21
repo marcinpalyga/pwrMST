@@ -48,9 +48,9 @@ class Rocket:
         #utworzenie okienka
         ekran = pygame.display.set_mode((SZEROKOSC, WYSOKOSC))
         pygame.display.set_caption("RAKIETA")
-        ikona = pygame.image.load('rakieta.png')
+        ikona = pygame.image.load('semestr 1/Wstęp do informatyki i programowania/lista 7/rakieta.png')
         pygame.display.set_icon(ikona)
-        rakieta = pygame.image.load('rakieta.png')
+        rakieta = pygame.image.load('semestr 1/Wstęp do informatyki i programowania/lista 7/rakieta.png')
         framecount = 0
         n = 0
         RAKIETA = pygame.transform.rotate(rakieta, n)
