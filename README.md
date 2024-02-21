@@ -39,23 +39,23 @@ Collection of programs and reports made during finished terms of Applied mathema
 
     Introduction to informatics and programming - Learning the basics of programming in Python.
 
-- Semestr 2:
+- Second Term:
     
     Programming - Continuation of learning how to program in Python.
 
     Mathematical packages - Basics of programming in Julia, here I have programs used during project about numerical integration.
 
-- Semestr 3:
+- Third Term:
 
     Data structures and algorithms - Studying algorithms and data structures such like algorithm complexity, queues, stacks, graphs, linked lists and their applications
 
-- Semestr 4:
+- Fourth Term:
 
     Applied statistics - Studying descriptive real data analysis and confidence intervals, statistic tests and power of tests.
 
-    Computer simulations - Simulating random variables using learned methods such as inverse transform sampling or acceptance rejection method and simulating Poisson process, Markov chains and Brownian motion.
+    Computer simulations - Simulating random variables using learned methods such as inverse transform sampling or acceptance rejection method and simulating Poisson processes, Markov chains and Brownian motion.
 
-- Semestr 5:
+- Fifth Term:
 
     Computer analysis of time series - Studying methods used in linear regression and modeling real data using ARMA models, their confidence levels, autocovariance function, autocorrelation function and partial autocorrelation function
 
