@@ -33,7 +33,7 @@ Zbiór jest podzielony według pracy wykonanej w każdym z semestrów:
 
 ENG
 
-Collection of programs and reports made during finished terms of Applied mathematics at Wroclaw University of Science and Technology. Collection divided by the work done during each term.
+Collection of programs and reports made during finished terms of Applied mathematics course at Wroclaw University of Science and Technology. Collection is divided by the work done during each term.
 
 - First Term:
 
