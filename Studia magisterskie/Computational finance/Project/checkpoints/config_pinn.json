@@ -1,0 +1,6 @@
+{
+  "activation": "tanh",
+  "hidden_neurons": 64,
+  "n_hidden": 4,
+  "optimizer": "Adam"
+}

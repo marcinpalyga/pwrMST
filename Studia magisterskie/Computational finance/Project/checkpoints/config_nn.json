@@ -1,0 +1,8 @@
+{
+  "activation": "relu",
+  "batch_size": 223,
+  "hidden_neurons": 587,
+  "lr": 0.006533305220227739,
+  "optimizer": "Adam",
+  "use_bn": "True"
+}
