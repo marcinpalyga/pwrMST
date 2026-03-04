@@ -3,60 +3,215 @@
 PL
 
 Zbiór programów i raportów napisanych podczas ukończonych semestrów studiów na kierunku Matematyka Stosowana na Politechnice Wrocławskiej.
-Zbiór jest podzielony według pracy wykonanej w każdym z semestrów:
+Zbiór jest podzielony według pracy wykonanej na każdym z przedmiotów:
 
-- Semestr 1:
+## Studia inżynierskie:
 
-    Wstęp do informatyki i programowania - Nauka podstaw programowania w języku Python.
+### Algorytmy i struktury danych 
 
-- Semestr 2:
-    
-    Programowanie - Kontynuacja nauki w Pythonie.
+- Złożoność obliczeniowa
 
-    Pakiety matematyczne - Podstawy programowania w języku Julia, tutaj programy wykorzystane podczas projektu na temat całkowania numerycznego.
+- Struktury danych: stosy, kolejki, listy połączone, grafy
 
-- Semestr 3:
+- Implementacja i analiza algorytmów
 
-    Algorytmy i struktury danych - Nauka algorytmów i struktur danych, w tym złożoności algorytmów, kolejek, stosów, grafów, list połączonych oraz ich wykorzystań.
+### Statystyka stosowana
 
-- Semestr 4:
+- Estymacja parametrów
 
-    Statystyka stosowana - Nauki opisowej analizy danych rzeczywistych oraz poziomów ufności, testów statystycznych czy mocy testów.
+- Przedziały ufności
 
-    Symulacje komputerowe - Symulowanie zmiennych losowych za pomocą poznanych metod np. metoda odwrotnej dystrybuanty czy akceptacji-odrzucenia, a także symulowanie procesu Poissona, łańcuchów Markowa i ruchu Browna.
+- Testy statystyczne i moc testów
 
-- Semestr 5:
+- Analiza danych rzeczywistych
 
-    Komputerowa analiza szeregów czasowych - Poznanie metod używanych przy regresji liniowej oraz modelowanie danych rzeczywistych za pomocą modeli ARMA, ich przedziałów ufności oraz funkcji autokowariancji, autokorelacji oraz częściowej autokorelacji.
+### Symulacje komputerowe
 
-    Metody numeryczne - Nauka rozwiązywania liniowych układów równań, interpolacji, całkowania numerycznego, różniczkowania numerycznego oraz rozwiązywania równań różniczkowych za pomocą metod numerycznych.
+- Generowanie zmiennych losowych (metoda odwrotnej dystrybuanty, akceptacji–odrzucenia)
+
+- Metody Monte Carlo
+
+Symulacje:
+
+- Proces Poissona
+
+- Łańcuchy Markowa
+
+- Ruch Browna
+
+### Komputerowa analiza szeregów czasowych
+
+- Regresja liniowa
+
+- Modele ARMA
+
+- ACF, PACF
+
+- Przedziały ufności dla prognoz
+
+### Metody numeryczne
+
+- Rozwiązywanie układów równań liniowych
+
+- Interpolacja
+
+- Całkowanie i różniczkowanie numeryczne
+
+- Numeryczne rozwiązywanie równań różniczkowych
+
+### Praca dyplomowa - "Matematyczne modele pracy serca."
+
+## Studia magisterskie:
+
+### Computational Finance 
+- Wycena opcji europejskich i amerykańskich:
+
+- model dwumianowy
+
+- metoda różnic skończonych
+
+- symulacje Monte Carlo
+
+- Projekt:
+„Pricing options and computing implied volatilities using neural networks”
+
+### Data Mining
+
+- Selekcja cech
+
+- Klasteryzacja
+
+- Redukcja wymiarowości
+
+Modele:
+
+- LDA, QDA
+
+- k-NN
+
+- SVM
+
+- PCA
+
+### Machine Learning
+
+- Regresja liniowa
+
+- Gradient descent
+
+- Walidacja krzyżowa
+
+- Perceptron wielowarstwowy
+
+### Partial Differential Equations
+- Projekt:
+"Image Processing with Burgers' Equation"
 
 ENG
 
-Collection of programs and reports made during finished terms of Applied mathematics course at Wroclaw University of Science and Technology. Collection is divided by the work done during each term.
+Collection of programs and reports written during completed semesters of studies in Applied Mathematics at the Wroclaw University of Science and Technology.
+The collection is divided according to the work completed in each course:
 
-- First Term:
+## Bachelor's Studies:
 
-    Introduction to informatics and programming - Learning the basics of programming in Python.
+### Algorithms and Data Structures
 
-- Second Term:
-    
-    Programming - Continuation of learning how to program in Python.
+- Computational complexity
 
-    Mathematical packages - Basics of programming in Julia, here I have programs used during project about numerical integration.
+- Data structures: stacks, queues, linked lists, graphs
 
-- Third Term:
+- Implementation and analysis of algorithms
 
-    Data structures and algorithms - Studying algorithms and data structures such like algorithm complexity, queues, stacks, graphs, linked lists and their applications
+### Applied Statistics
 
-- Fourth Term:
+- Parameter estimation
 
-    Applied statistics - Studying descriptive real data analysis and confidence intervals, statistic tests and power of tests.
+- Confidence intervals
 
-    Computer simulations - Simulating random variables using learned methods such as inverse transform sampling or acceptance rejection method and simulating Poisson processes, Markov chains and Brownian motion.
+- Statistical tests and test power
 
-- Fifth Term:
+- Analysis of real-world data
 
-    Computer analysis of time series - Studying methods used in linear regression and modeling real data using ARMA models, their confidence levels, autocovariance function, autocorrelation function and partial autocorrelation function
+### Computer Simulations
 
-    Numerical methods - Learning how to solve linear systems of equations, interpolation, numerical integration, numerical differentation and solving differential equations using numerical methods.
+- Generation of random variables (inverse transform method, acceptance–rejection method)
+
+- Monte Carlo methods
+
+Simulations:
+
+- Poisson process
+
+- Markov chains
+
+- Brownian motion
+
+### Computer Analysis of Time Series
+
+- Linear regression
+
+- ARMA models
+
+- ACF, PACF
+
+- Confidence intervals for forecasts
+
+### Numerical Methods
+
+- Solving systems of linear equations
+
+- Interpolation
+
+- Numerical integration and differentiation
+
+- Numerical solving of differential equations
+
+### Engineering Thesis – "Mathematical Models of the Heart's Functioning"
+
+## Master's Studies:
+
+### Computational Finance
+
+- Pricing of European and American options
+
+- Binomial model
+
+- Finite difference method
+
+- Monte Carlo simulations
+
+- Project:
+  "Pricing options and computing implied volatilities using neural networks"
+
+### Data Mining
+
+- Feature selection
+
+- Clustering
+
+- Dimensionality reduction
+
+Models:
+
+- LDA, QDA
+
+- k-NN
+
+- SVM
+
+- PCA
+
+### Machine Learning
+
+- Linear regression
+
+- Gradient descent
+
+- Cross-validation
+
+- Multilayer perceptron
+
+### Partial Differential Equations
+
+- Project:
+  "Image Processing with Burgers' Equation"
